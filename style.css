@@ -17,7 +17,7 @@ body{
 
 
 .container {
-    max-width: 400px;
+    width: 40%;
     margin: 50px auto;
     padding: 10px 20px;
     border-radius: 5px;
@@ -37,12 +37,13 @@ input[type=text]:focus {
     margin: 10px 0;
     background-color: rgba(0, 0, 0, 0.5);
     border: none;
+    height: 50px;
 }
 
 .todos li {
     cursor: pointer;
     margin: 10px 0;
-    padding: 5px 10px;
+    padding: 10px;
     border-radius: 4px;
     font-weight: bold;
     display: flex;
